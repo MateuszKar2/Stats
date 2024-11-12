@@ -1,0 +1,27 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start-run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateuszKar2/Stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateuszKar2/Stats/issues"
+  },
+  "homepage": "https://github.com/MateuszKar2/Stats#readme",
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7"
+  }
+}
