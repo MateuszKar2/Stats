@@ -1,4 +1,4 @@
-# Stats
+ # Stats
 
 A small web application for displaying user statistics using Express and EJS. Great for learning how to render dynamic views on the server side.
 
