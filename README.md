@@ -37,24 +37,17 @@ npm run dev
 
 The app will typically run at: http://localhost:3000
 
-📁 Project Structure
-Stats/
+## 📁 Project Structure
 
-node_modules/ – zainstalowane zależności
-
-public/ – pliki statyczne (np. CSS)
-
-views/ – pliki EJS (szablony)
-
-partials/ – części wspólne widoków (np. nagłówek, stopka)
-
-index.ejs – główna strona
-
-server.js – główny plik serwera
-
-package.json – dane o projekcie i zależnościach
-
-README.md – dokumentacja projektu
+- `Stats/`
+  - `node_modules/` – zainstalowane zależności
+  - `public/` – pliki statyczne (np. style CSS)
+  - `views/` – szablony EJS
+    - `partials/` – fragmenty widoków (np. header, footer)
+    - `index.ejs` – główna strona aplikacji
+  - `server.js` – główny plik serwera Express
+  - `package.json` – konfiguracja projektu i zależności
+  - `README.md` – dokumentacja projektu
 
 ✨ Features
 Serwerowy rendering stron z EJS
